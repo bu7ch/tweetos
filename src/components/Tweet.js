@@ -3,7 +3,7 @@ import './Tweet.css'
 const Tweet = ({ avatar, tweet, username }) => (
   <div className="tweet">
     <div className="avatar">
-      <img src={avatar} />
+      <img src={avatar} alt='image' />
     </div>
     <div className="data">
       <strong>{username}</strong>

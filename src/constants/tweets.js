@@ -1,10 +1,3 @@
-let dog0={uri:"https://bit.ly/2ULa570"}
-let dog1={uri:"https://bit.ly/316OcTF"}
-let dog2={uri:"https://bit.ly/2YIn4b8"}
-let dog3={uri:"https://bit.ly/3hs5Nv7"}
-let dog4={uri:"https://bit.ly/2V4FG3Q"}
-
-
 
 const tweets = [
   {
