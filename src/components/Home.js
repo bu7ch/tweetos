@@ -22,6 +22,11 @@ class Home extends Component {
       ],
     });
   };
+
+  remove =index => {
+    const { tweets} = this. state;
+    this.setState({ tweets: tweets.filter((tweet,i)=> i !== index)})
+  }
   render() {
     const { tweets } = this.state;
     return (
@@ -29,7 +34,10 @@ class Home extends Component {
         <TweetBox publish={this.publish} />
         <div className="tweets">
         {tweets.map((tweet, index) => (
-            <Tweet key={index} {...tweet} />
+            <Tweet key={index}
+            index={index}
+            remove={this.remove}
+            {...tweet} />
           ))}
         </div>
         
