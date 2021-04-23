@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Tweet.css'
 const Tweet = ({ avatar, tweet, username }) => (
   <div className="tweet">
     <div className="avatar">

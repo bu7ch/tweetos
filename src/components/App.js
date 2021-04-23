@@ -1,18 +1,18 @@
 import React from "react";
-import { tweets } from "../constants/tweets";
+import tweets from "../constants/tweets";
 import Home from './Home'
 import Tweet from "./Tweet"
+import './App.css'
 
 const App = () => (
   <>
     <Home>
+      {tweets.map((tweet, index) =>(
       <Tweet
-        id={tweet.id}
-        avatar={tweet.avatar}
-        username={tweet.username}
-        tweet={tweet.tweet}
-        date={tweet.date}
+        key={index}
+        {...tweet}
       />
+      ))}
     </Home>
   </>
 );

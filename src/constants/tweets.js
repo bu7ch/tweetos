@@ -12,37 +12,37 @@ const tweets = [
     date:"22/06/2020",
     username:"Kendrick Doggy",
     tweet:"React Native c'est trop cool !",
-    avatar:dog0,
+    avatar:"https://bit.ly/2ULa570",
   },
   {
     _id:1,
     date:"23/06/2020",
     username:"Dr.Dogger",
     tweet:"Coucou tweeter!!",
-    avatar:dog1,
+    avatar:"https://bit.ly/316OcTF",
   },
   {
     _id:2,
     date:"24/06/2020",
     username:"Fat Dooggy",
     tweet:"Whoo let's dogs out !!!!",
-    avatar:dog2,
+    avatar:"https://bit.ly/2YIn4b8",
   },
   {
     _id:3,
     date:"25/06/2020",
     username: "LL Cool Dog",
     tweet:"Peace & Love my Dogs !!",
-    avatar:dog3,
+    avatar:"https://bit.ly/3hs5Nv7",
   },
   {
     _id:4,
     date:"26/06/2020",
     username:"Hot Dog",
     tweet: "Quelle chienne de vie !",
-    avatar:dog4,
+    avatar:"https://bit.ly/2V4FG3Q",
   }
 ];
 
 
-export default tweets;
+export default tweets 
