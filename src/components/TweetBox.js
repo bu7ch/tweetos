@@ -17,7 +17,14 @@ handleChange = ({target: { value } }) => {
         placeholder="composer votre tweet"
         value={value}
         onChange={this.handleChange}
+        className={value.length > 240 && 'alert'}
         />
+        <div className="action">
+          <span className="count">{240 - value.length}</span>
+          <button type="button" 
+          disabled={!value.length || value.length > 240}
+          > Tweet</button>
+        </div>
       </div>
     )
   }
